@@ -7,8 +7,11 @@
 \begin{document}
 
 \verb=gitTraverse= is a poorly named Python script with the eventual goal of automating
-the task of making a timelapse of a document that has been made using \LaTeX and
+the task of making timelapse videos for a document that has been made using \LaTeX and
 \verb=Git=.
 
+Currently, you run the script a \verb=.tex= file. The script will traverse your git 
+history (from branch master) and create PDFs from the named \verb=.tex= file at
+each commit. This is ugly but it's the first step towards our eventual goal.
 
 \end{document}
