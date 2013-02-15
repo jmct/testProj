@@ -24,7 +24,7 @@ the task of making timelapse videos for a document that has been made using \LaT
 \verb=Git=.
 
 Currently, you run the script a \verb=.tex= file. The script will traverse your git 
-history (from branch master) and create PDFs from the named \verb=.tex= file at
+history (from HEAD) and create PDFs from the named \verb=.tex= file at
 each commit. This is ugly but it's the first step towards our eventual goal.
 
 The script will not crash if the \LaTeX build fails, it will just ignore that
@@ -40,4 +40,11 @@ This project has a few dependencies. So far they are
         \item Python 2.7
     \end{itemize}
 
+
+\newpage
+\section{Usage}
+In order to use this script, run
+\begin{verbatim}
+gitTraverse [file]
+\end{verbatim}
 \end{document}
